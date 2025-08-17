@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #0a0f2c; /* Dark Navy Blue */
+  --secondary-color: #1e3a8a; /* Deep Blue */
+  --accent-color: #38bdf8; /* Neon Light Blue */
+  --text-color: #e2e8f0; /* Light Grayish Text */
+  --card-bg: #111827; /* Darker Card Background */
+  --navbar-bg: #0f172a; /* Navbar background */
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
